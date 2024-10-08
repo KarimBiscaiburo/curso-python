@@ -32,7 +32,7 @@ print(lista)
 print(algo)
 
 # REMOVE - Remueve un elemento de una lista, pide valor
-lista.remove(2)
+lista.remove(2) # Remueve el elemento que sea igual a 2
 print(lista)
 
 # CLEAR - Elimina todos los elementos de una lista
