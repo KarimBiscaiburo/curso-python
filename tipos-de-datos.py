@@ -22,19 +22,34 @@ False
 
 # Tipos de datos Compuestos
 
-# Listas
+# Listas (No se pueden crear listas vacias sin usar "list")
 
 lista = ["Martin", True, 34]
 print(lista[0])
 # La lista se puede modificar
 lista[0] = "Carlos"
 
-# Tuplas 
+lista2 = list()
+
+# Tuplas (No se pueden crear tuplas vacios sin usar "tuple")
 
 tupla = ("Martin", True, 34, "Martin")
 print(tupla[0])
 # Cuando lo ejecutemos nos va a dar error porque no se pueden modificar
 tupla[0] = "Carlos"
+
+otraTupla = tuple(["Otra", "tupla"])
+print(type(otraTupla))
+
+otraOtraTupla = "dato1", "dato2"
+
+print(type(otraOtraTupla))
+
+tuplaDeUnDato = "dato1",
+
+print(type(tuplaDeUnDato))
+
+tupla2 = tuple()
 
 
 # Conjuntos
@@ -43,7 +58,7 @@ tupla[0] = "Carlos"
 conjunto = {"Martin", True, 34}
 
 
-# Diccionario
+# Diccionario (No se pueden crear dicionarios vacios sin usar "dict")
 
 diccionario = {
     "nombre": "Martin",
